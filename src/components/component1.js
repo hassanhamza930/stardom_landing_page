@@ -1,3 +1,8 @@
+import raja from "../assets/raja.gif";
+import demo from "../assets/demo.gif";
+
+
+
 export default function Component1(){
     return(
         <div className="h-full flex flex-col md:flex-row w-full bg-white ">
@@ -7,17 +12,24 @@ export default function Component1(){
                     Changing the way you interact with your favourite celebrities.
                 </div>
 
-                <div className="text-3xl mt-10 font-normal">
-                    Stardom app allows you to interact with your favourite celebrities in a way that has never hit the mainstream before.
+                <div className="text-2xl mt-10 font-normal">
+                    Stardom monetizes the interaction between your favourite celebrity and you to ensure a mutually beneficial deal for both.
                 </div>
 
             </div>
 
-            <div style={{backgroundImage:"url('https://i.scdn.co/image/ab6761610000e5eb276369b9195d6f67470fd51a')"}} className="h-96 md:h-[400px] w-full md:w-3/5 self-center self-start bg-cover bg-center bg-red-500 gap-5 rounded-md md:m-10">
+            <div className="h-96 md:h-[400px] w-full md:w-3/5 self-center self-start gap-5 rounded-md md:m-10 flex justify-center items-center">
+                
+                <div style={{backgroundImage:`url(${demo})`}} className="flex self-center bg-cover bg-center h-96 w-full md:w-full md:bg-top   bg-red-500 rounded-md">
+                   
+                </div>
 
             </div>
 
 
         </div>
     )
+
+
+
 }
