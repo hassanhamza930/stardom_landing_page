@@ -1,5 +1,4 @@
-import demo from "../assets/demo.gif";
-import raja from "../assets/raja.gif";
+
 
 
 

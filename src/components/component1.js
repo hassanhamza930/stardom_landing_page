@@ -1,5 +1,3 @@
-import raja from "../assets/raja.gif";
-import demo from "../assets/demo.gif";
 
 
 
@@ -20,9 +18,9 @@ export default function Component1(){
 
             <div className="h-96 md:h-[400px] w-full md:w-3/5 self-center self-start gap-5 rounded-md md:m-10 flex justify-center items-center">
                 
-                <div style={{backgroundImage:`url(${demo})`}} className="flex self-center bg-cover bg-center h-96 w-full md:w-full md:bg-top   bg-red-500 rounded-md">
+                {/* <div style={{backgroundImage:`url(${demo})`}} className="flex self-center bg-cover bg-center h-96 w-full md:w-full md:bg-top   bg-red-500 rounded-md">
                    
-                </div>
+                </div> */}
 
             </div>
 
