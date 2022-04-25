@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Swal from "sweetalert2";
 
 
 
@@ -34,7 +35,18 @@ export default function Component4(){
                     setPhone(e.target.value);
                 }}
                 placeholder="Phone" className="w-3/4 md:w-2/4 ml-5 p-2 border-2 border-black text-black"></input>
-                <button className="ml-6 p-2 bg-red-500 w-24 rounded-sm ">Submit</button>
+                <button
+                onClick={()=>{
+                    fetch("https://freakh2o.pythonanywhere.com/?email="+email+"&phone="+phone);
+                    Swal.fire({  
+                        title: 'Submitted',  
+                        type: 'success',  
+                        text: 'We will notify you as soon as we launch',  
+                      }); 
+                }}
+                className="ml-6 p-2 bg-red-500 w-24 rounded-sm ">Submit</button>
+                
+                <div className="text-md m-5">Contact,<br></br>stardompakistan@gmail.com</div>
 
             </div>
 

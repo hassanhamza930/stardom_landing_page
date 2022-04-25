@@ -5,9 +5,9 @@ import raja from "../assets/raja.mp4"
 
 export default function Component3(){
     return(
-        <div className="h-full flex flex-col md:flex-row w-full bg-white ">
+        <div className="h-full flex flex-col md:flex-row w-full bg-[#E8630A] ">
  
-            <div className="md:w-2/5 w-full mt-10 mb-10 text-black/80  p-5 text-5xl md:text-7 xl font-regular flex flex-col font-bold">
+            <div className="md:w-2/5 w-full mt-10 mb-10 text-white  p-5 text-5xl md:text-7 xl font-regular flex flex-col font-bold">
                 <div>
                     Video Shoutouts.
                 </div>
