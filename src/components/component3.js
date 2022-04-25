@@ -1,3 +1,5 @@
+import ReactPlayer from "react-player"
+import raja from "../assets/raja.mp4"
 
 
 
@@ -19,9 +21,8 @@ export default function Component3(){
 
             <div className="h-96 md:h-[400px] w-full md:w-3/5 self-center self-start gap-5 rounded-md md:m-10 flex justify-center items-center">
                 
-                {/* <div style={{backgroundImage:`url(${raja})`}} className="flex self-center bg-cover bg-center h-96 w-full md:w-full md:bg-top   bg-red-500 rounded-md">
-                   
-                </div> */}
+                <ReactPlayer className="h-full w-full" url={raja} loop={true} controls={true} playing={true} />
+
 
             </div>
 

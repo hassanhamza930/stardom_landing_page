@@ -1,8 +1,14 @@
+import { useState } from "react"
 
 
 
 
 export default function Component4(){
+
+    const [email,setEmail]=useState("");
+    const [phone,setPhone]=useState("");
+
+
     return(
         <div className="h-full flex flex-col md:flex-row-reverse w-full bg-white ">
  
@@ -18,11 +24,17 @@ export default function Component4(){
 
             </div>
 
-            <div className="bg-black      h-96 md:h-[400px] w-full md:w-3/5 self-center self-start gap-5 rounded-md md:m-10 flex flex-col justify-center items-start">
+            <div className="bg-black h-96 md:h-[400px] w-full md:w-3/5 self-center self-start gap-5 rounded-md m-0 md:m-10 flex flex-col justify-center items-start">
                 
-                <input placeholder="Email" className="w-2/4 ml-5 p-2 border-2 border-black"></input>
-                <input placeholder="Phone" className="w-2/4 ml-5 p-2 border-2 border-black"></input>
-                <button className="ml-5 p-2 bg-red-500 w-24 rounded-sm ">Submit</button>
+                <input onChange={(e)=>{
+                    setEmail(e.target.value);
+                }} placeholder="Email" className="w-3/4 md:w-2/4 ml-5 p-2 border-2 border-black text-black"></input>
+                <input
+                onChange={(e)=>{
+                    setPhone(e.target.value);
+                }}
+                placeholder="Phone" className="w-3/4 md:w-2/4 ml-5 p-2 border-2 border-black text-black"></input>
+                <button className="ml-6 p-2 bg-red-500 w-24 rounded-sm ">Submit</button>
 
             </div>
 

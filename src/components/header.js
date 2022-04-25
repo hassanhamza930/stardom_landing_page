@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export default function Header(){
@@ -11,9 +12,14 @@ export default function Header(){
         </div>
 
         <div className="flex mt-5 md:mt-0 flex-wrap justify-center items-center gap-5  md:gap-10 text-md md:text-xl font-bolds ">
-          {/* <button className="">Download</button>
-          <button className="">About</button>
-          <button className="">Contact</button> */}
+          <Link to="/download">Download</Link>
+          {/* <button className="">About</button> */}
+          <button
+          onClick={()=>{
+            window.scrollTo({left:0, top:document.body.scrollHeight,behavior:"smooth"});
+
+          }}
+          className="">Contact</button>
         </div>
       </div>
 }

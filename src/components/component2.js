@@ -1,4 +1,5 @@
 import back from "../assets/content.png";
+import FadeIn from "react-fade-in";
 
 export default function Component2(){
     return(
@@ -12,17 +13,17 @@ export default function Component2(){
 
 
 
-            <div className="md:w-2/5 w-full mt-10 mb-10 text-black/80  p-5 text-5xl md:text-7 xl font-regular flex flex-col font-bold items-start justify-center">
+            <FadeIn delay={500} className="md:w-2/5 w-full mt-10 mb-10 text-black/80  p-5 text-5xl md:text-7 xl font-regular flex flex-col font-bold items-start justify-center">
                 <div>
                     Instant Messaging
                 </div>
 
                 <div className="text-2xl mt-10 font-normal">
                     Send direct messages to your favourite celebrities for a small price and get into the conversation.
-                    Ask for advice. Become a fan, The possbilities are endless.
+                    Ask for advice, give feedback or just say Hi, The possbilities are endless.
                 </div>
 
-            </div>
+            </FadeIn>
 
             
 
