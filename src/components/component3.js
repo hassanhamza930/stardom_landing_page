@@ -19,7 +19,7 @@ export default function Component3(){
 
             </div>
 
-            <div className="h-96 md:h-[400px] w-full md:w-3/5 self-center self-start gap-5 rounded-md md:m-10 flex justify-center items-center">
+            <div className="h-96 md:h-[400px] w-full md:w-3/5 self-center self-start gap-5 rounded-md m-0 md:m-10 flex justify-center items-center">
                 
                 <ReactPlayer className="h-full w-full" url={raja} loop={true} controls={true} playing={true} />
 

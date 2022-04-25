@@ -46,7 +46,7 @@ export default function Component4(){
                 }}
                 className="ml-6 p-2 bg-red-500 w-24 rounded-sm ">Submit</button>
                 
-                <div className="text-md m-5">Contact,<br></br>stardompakistan@gmail.com</div>
+                <div className="text-md m-5"><b>Contact:</b><br></br>stardompakistan@gmail.com<br></br>+923174631189<br></br>Lahore,Pakistan</div>
 
             </div>
 

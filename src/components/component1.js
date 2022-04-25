@@ -17,9 +17,9 @@ export default function Component1(){
     
 
     return(
-        <div className="h-full flex flex-col md:flex-row w-full bg-white ">
+        <div className="h-full flex flex-col md:flex-row w-full bg-black/80 ">
  
-            <FadeIn delay={500} className="md:w-2/5 w-full mt-10 mb-10 text-black/80  p-5 text-5xl md:text-7 xl font-regular flex flex-col font-bold">
+            <FadeIn delay={500} className="md:w-2/5 w-full mt-10 mb-10 text-white  p-5 text-5xl md:text-7 xl font-regular flex flex-col font-bold">
                 <div>
                     Changing the way you interact with your favourite celebrities.
                 </div>
