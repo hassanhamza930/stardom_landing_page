@@ -9,6 +9,7 @@ import {
 
 import Download from "./components/download";
 import Home from "./components/home";
+import Early from "./pages/early";
 
 
 
@@ -18,7 +19,8 @@ function App() {
         
         <Route path="/" element={<Home/>} />
         <Route path="/download" element={<Download/>} />
-        
+        <Route path="/early" element={<Early/>} />
+
       </Routes>
   );
 }
