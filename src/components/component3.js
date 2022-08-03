@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player"
 import raja from "../assets/raja.mp4"
-
+import vidReq from "../assets/vidReq.svg";
 
 
 export default function Component3(){
@@ -21,8 +21,8 @@ export default function Component3(){
 
             <div className="h-96 md:h-[400px] w-full md:w-3/5 self-center self-start gap-5 rounded-md m-0 md:m-10 flex justify-center items-center">
                 
-                <ReactPlayer className="h-full w-full" url={raja} loop={true} controls={true} playing={true} />
-
+                {/* <ReactPlayer className="h-full w-full" url={raja} loop={true} controls={true} playing={true} /> */}
+                <div style={{backgroundImage:`url('${vidReq}')`}} className="bg-center bg-cover h-full w-full rounded-xl"></div>
 
             </div>
 
